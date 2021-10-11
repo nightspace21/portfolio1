@@ -1,0 +1,142 @@
+div.navWrap {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+div.navWrap nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.navWrap nav dl {
+  width: calc(100% / 4 - 20px);
+  color: #fff;
+}
+
+/* after header */
+div.cntsub13 .sect132 {
+  width: 90%;
+  max-width: 1080px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+div.cntsub13 .sect132 .i2 {
+  width: 540px;
+  background-color: #f90;
+  position: relative;
+  height: 360px;
+}
+
+div.cntsub13 .sect132 .artGroup {
+  width: 900%;
+  position: absolute;
+  top: 0;
+  -webkit-transition: left 0.7s;
+  transition: left 0.7s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.cntsub13 .sect132 .artGroup .article {
+  text-align: left;
+  width: 25%;
+}
+
+div.cntsub13 .sect132 .artGroup .article .texts {
+  font-family: "Noto Sans KR";
+  background-color: rgba(177, 166, 166, 0.8);
+  padding: 80px 90px;
+  height: 360px;
+  width: 540px;
+  text-align: left;
+  color: #fff;
+}
+
+div.cntsub13 .sect132 .artGroup .article .texts h4 {
+  color: #fff;
+}
+
+div.cntsub13 .sect132 .artGroup .article .texts p {
+  font-family: "Noto Sans KR";
+  margin-top: 40px;
+  width: 250;
+}
+
+div.cntsub13 .sect132 input {
+  display: none;
+}
+
+div.cntsub13 .sect132 #g5:checked ~ .artGroup {
+  left: 0%;
+}
+
+div.cntsub13 .sect132 #g6:checked ~ .artGroup {
+  left: -100%;
+}
+
+div.cntsub13 .sect132 #g7:checked ~ .artGroup {
+  left: -200%;
+}
+
+div.cntsub13 .sect132 #g8:checked ~ .artGroup {
+  left: -300%;
+}
+
+div.cntsub13 .sect132 #g9:checked ~ .artGroup {
+  left: -400%;
+}
+
+div.cntsub13 .sect132 #g10:checked ~ .artGroup {
+  left: -500%;
+}
+
+div.cntsub13 .sect132 #g11:checked ~ .artGroup {
+  left: -600%;
+}
+
+div.cntsub13 .sect132 #g12:checked ~ .artGroup {
+  left: -700%;
+}
+
+div.cntsub13 .sect132 #g13:checked ~ .artGroup {
+  left: -800%;
+}
+
+div.cntsub13 .sect132 .btnGroup {
+  position: absolute;
+  left: 80px;
+  bottom: 25px;
+}
+
+div.cntsub13 .sect132 .btnGroup li {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #eee;
+  float: left;
+  margin: 0 10px;
+}
+
+div.cntsub13 .sect132 .btnGroup li label {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+/* before footer */
+/*# sourceMappingURL=blank.css.map */

@@ -1,0 +1,174 @@
+// sub2.scss
+
+div.main{
+    background-image: url(../img/sub2/sub2main_bg.jpg);
+    section{
+        article{
+            h2{
+                font-size: 36px;
+                line-height: 60px;
+                font-weight: 700;
+            }
+            h3{
+                margin-top: 40px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+div.cnt1_right{
+    header{
+        text-align: left;
+    }
+    section{
+        display: flex;
+        .mainbg{
+            width: calc(34% - 20px);
+        }
+        .artview{
+            width: 66%;
+            overflow: hidden;
+            .artgroup{
+                display: flex;
+                justify-content: space-around;
+                width: 300%;
+                position: relative;
+                article{
+                    position: relative;
+                    width: calc(100% / 6 - 20px);
+                    .image{
+                        background-color: #eee;
+                        height: 345px;
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                    h4{
+                        font-weight: normal;
+                        position: absolute;
+                        top: 0; bottom: 0;
+                        left: 0; right: 0;
+                        margin: auto;
+                        align-items: center;
+                        text-align: center;
+                        padding: 130px 10px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.cnt2_benefit{
+    section{
+        display: flex;
+        justify-content: space-around;
+        article{
+            width: calc(33.33% - 20px);
+            .image{
+                height: 320px;
+                background-color: #999;
+                img{
+                    border-radius: 8px;
+                }
+            }
+            .texts{
+                padding: 20px 30px;
+                
+                h4{}
+                h5{
+                    width: 250px;
+                    line-height: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+div.cnt3_banner{
+    padding: 40px 0;
+    section{
+        margin-top: 0;
+        article{
+            direction: ltr;
+            position: relative;
+            .image{
+                height: 400px;
+                background-position: center;
+                background-size: cover;
+                background-image: url(../img/sub2/banner/banner.jpg);
+                width: calc(100% + (100vw - 1080px) / 2 + 10px); 
+                min-width: 100%;
+                border-radius: 10px 0 0 10px;
+            }
+            .texts{
+                position: absolute;
+                bottom: 250px; right: 0;
+                color: #fff;
+                text-align: right;
+                h4{
+                    font-family: "Noto Sans Serif";
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 40px;
+                    color: #fff;    
+                }
+            }
+        }
+    }
+}
+
+div.cnt4_offices{
+    header{
+        h3{text-align: left;}
+    }
+    section{
+        position: relative;
+        overflow: hidden;
+        .btns{
+            width: calc(100% + 40px);
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            margin: auto;
+            top: 40px; bottom: 0;
+            left: -20px; right: -20px;
+            button{
+                font-size: 60px;
+                width: 80px; height: 80px;
+                background-color: transparent;
+                color: #fff;
+                border: 0;
+                cursor: pointer;
+            }
+        }
+        .artgroup{
+            width: 800%;
+            article{
+                display: flex;
+                .image{
+                    width: 100%;
+                    height: 400px;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 8px;
+                }
+            }
+        }
+        .num{
+            position: absolute;
+            top: 20px; right: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+    @for $i from 1 through 8 {
+        .i#{$i}{
+            background-image: url('../img/index/offices/pic0#{$i}.jpg');
+        }
+    }
+}

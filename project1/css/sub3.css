@@ -1,0 +1,292 @@
+div.cnts31 {
+  background-color: #f3f6f8;
+}
+
+div.cnts31 section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.cnts31 section article .image {
+  width: calc(33.33% - 20px);
+  height: 400px;
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 20px;
+  border: 1px solid #b9b9b9;
+}
+
+div.cnts31 section article .image:nth-of-type(4), div.cnts31 section article .image:nth-of-type(5), div.cnts31 section article .image:nth-of-type(6) {
+  margin-top: 40px;
+}
+
+div.cnts31 section article .image .popup-button {
+  height: 400px;
+  display: block;
+  cursor: pointer;
+}
+
+div.cnts31 section article .image .popup-button:hover {
+  background: rgba(170, 168, 168, 0.144);
+  border-radius: 20px;
+}
+
+div.cnts31 section article .image .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+div.cnts31 section article .image .popup .popup-inner {
+  height: inherit;
+  padding: 20px;
+  background: transparent;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+div.cnts31 section article .image .popup .popup-inner .popup-content {
+  width: 100%;
+  height: 100%;
+}
+
+div.cnts31 section article .image .popup .transparent-label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  cursor: pointer;
+}
+
+div.cnts31 section article .image > input {
+  display: none;
+}
+
+div.cnts31 section article .image > input:checked + .popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+div.cnts31 section article .image > input:checked + .popup .popup-inner {
+  top: 50%;
+}
+
+div.cnts31 section article .i1 {
+  background-image: url(../img/sub3/sub31.jpg);
+}
+
+div.cnts31 section article .i1 .popup .popup-inner .popup-content .i1 {
+  height: inherit;
+  content: url(../img/sub3/sub31.jpg);
+}
+
+div.cnts31 section article .i2 {
+  background-image: url(../img/sub3/sub32.jpg);
+}
+
+div.cnts31 section article .i2 .popup .popup-inner .popup-content .i2 {
+  height: inherit;
+  content: url(../img/sub3/sub32.jpg);
+}
+
+div.cnts31 section article .i3 {
+  background-image: url(../img/sub3/sub33.jpg);
+}
+
+div.cnts31 section article .i3 .popup .popup-inner .popup-content .i3 {
+  height: inherit;
+  content: url(../img/sub3/sub33.jpg);
+}
+
+div.cnts31 section article .i4 {
+  background-image: url(../img/sub3/sub34.jpg);
+}
+
+div.cnts31 section article .i4 .popup .popup-inner .popup-content .i4 {
+  height: inherit;
+  content: url(../img/sub3/sub34.jpg);
+}
+
+div.cnts31 section article .i5 {
+  background-image: url(../img/sub3/sub35.jpg);
+}
+
+div.cnts31 section article .i5 .popup .popup-inner .popup-content .i5 {
+  height: inherit;
+  content: url(../img/sub3/sub35.jpg);
+}
+
+div.cnts31 section article .i6 {
+  background-image: url(../img/sub3/sub36.jpg);
+}
+
+div.cnts31 section article .i6 .popup .popup-inner .popup-content .i6 {
+  height: inherit;
+  content: url(../img/sub3/sub36.jpg);
+}
+
+div.cnts31 section .btns {
+  margin-top: 40px;
+  text-align: center;
+}
+
+div.cnts31 section .btns button {
+  font-family: "Noto Sans KR",sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  /*  */
+  background-color: #cfcfcf;
+  /*  */
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  width: 340px;
+  height: 80px;
+}
+
+div.cnts32 {
+  background-color: #f3f6f8;
+}
+
+div.cnts32 section article input {
+  display: none;
+}
+
+div.cnts32 section article dl dt {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  /*  */
+  background-color: #cddfed;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+div.cnts32 section article dl dt .fa-caret-down {
+  display: none;
+}
+
+div.cnts32 section article dl dt i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+div.cnts32 section article dl dt label {
+  height: 80px;
+  line-height: 80px;
+  cursor: pointer;
+}
+
+div.cnts32 section article dl dt label i {
+  width: 20px;
+  height: 20px;
+}
+
+div.cnts32 section article dl dt:nth-of-type(2), div.cnts32 section article dl dt:nth-of-type(3), div.cnts32 section article dl dt:nth-of-type(4), div.cnts32 section article dl dt:nth-of-type(5) {
+  margin-top: 40px;
+}
+
+div.cnts32 section article dl dd {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  /*  */
+  background-color: rgba(90, 90, 90, 0.082);
+  border-radius: 5px;
+  /*  */
+  height: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+div.cnts32 section article #a1:checked ~ dl dd:nth-of-type(1) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnts32 section article #a1:checked ~ dl dt:nth-of-type(1) .fa-caret-down {
+  display: inline;
+}
+
+div.cnts32 section article #a1:checked ~ dl dt:nth-of-type(1) .fa-caret-up {
+  display: none;
+}
+
+div.cnts32 section article #a2:checked ~ dl dd:nth-of-type(2) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnts32 section article #a2:checked ~ dl dt:nth-of-type(2) .fa-caret-down {
+  display: inline;
+}
+
+div.cnts32 section article #a2:checked ~ dl dt:nth-of-type(2) .fa-caret-up {
+  display: none;
+}
+
+div.cnts32 section article #a3:checked ~ dl dd:nth-of-type(3) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnts32 section article #a3:checked ~ dl dt:nth-of-type(3) .fa-caret-down {
+  display: inline;
+}
+
+div.cnts32 section article #a3:checked ~ dl dt:nth-of-type(3) .fa-caret-up {
+  display: none;
+}
+
+div.cnts32 section article #a4:checked ~ dl dd:nth-of-type(4) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnts32 section article #a4:checked ~ dl dt:nth-of-type(4) .fa-caret-down {
+  display: inline;
+}
+
+div.cnts32 section article #a4:checked ~ dl dt:nth-of-type(4) .fa-caret-up {
+  display: none;
+}
+
+div.cnts32 section article #a5:checked ~ dl dd:nth-of-type(5) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnts32 section article #a5:checked ~ dl dt:nth-of-type(5) .fa-caret-down {
+  display: inline;
+}
+
+div.cnts32 section article #a5:checked ~ dl dt:nth-of-type(5) .fa-caret-up {
+  display: none;
+}
+/*# sourceMappingURL=sub3.css.map */

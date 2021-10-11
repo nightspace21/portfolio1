@@ -1,0 +1,115 @@
+// blank.scss
+
+div.cnt1_brands{
+    section{
+        position: relative;
+            .artview{
+                position: relative;
+                .artgroup{
+                    
+                    position: relative;
+                    .artle{
+                        display: none;
+                        &:first-child{display: block;}
+                    }
+                    article{
+                        display: flex;
+                        justify-content: space-around;
+                        position: relative;
+                        .image{
+                            width: calc(43% - 20px);
+                            height: 440px;
+                            background-color: #999;
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 10px 0 0 10px;
+                        }
+                        .textsgroup{
+                            width: calc(57% - 20px);
+                            // background-color: #ccc;
+                            position: relative;
+                            .backgroundimage{
+                                height: 100%;
+                                border-radius: 0 10px 10px 0;
+                            }
+                            .texts{
+                                position: absolute;
+                                top: 0; left: 0;
+                                padding: 40px 20px;
+                                
+                                h4{
+                                    color: #fff;
+                                    line-height: 40px;
+                                    b{
+                                        font-weight: 700;
+                                        color: #f90;
+                                    }
+                                }
+                                p{
+                                    color: #fff;
+                                    margin-top: 40px;
+                                }
+                                .imggroup{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    margin-top: 40px;
+                                    .imagegroup{
+                                        width: calc(33.33% - 20px);
+                                        height: 120px;
+                                        box-shadow: 8px 5px 5px #000;
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 8px;
+                                        }
+                                    }
+                                }
+                                button{
+                                    margin-top: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+    }
+    @for $i from 1 through 20 {
+        .i#{$i}{
+            background-image: url('../img/sub3/brand#{$i}/brand#{$i}_logo.png');
+        }
+    }
+
+    @for $i from 1 through 20 {
+        .it#{$i}{
+            background-image: url('../img/sub3/brand#{$i}/brand#{$i}_bg.png');
+            background-position: center;
+            background-size: cover;
+            filter: blur(3px);
+            opacity: 0.8;
+        }
+    }
+
+
+    .btns{
+        width: calc(100% + 20px);
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        margin: auto;
+        top: 0px; bottom: -500px;
+        left: -10px;
+        
+        button{
+            font-size: 50px;
+            width: 80px; height: 80px;
+            background-color: transparent;
+            color: #ccc;
+            border: 0;
+            cursor: pointer;
+            background-color: transparent;
+        }
+    }
+
+}

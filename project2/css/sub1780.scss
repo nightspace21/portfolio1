@@ -1,0 +1,185 @@
+// sub1_780.scss
+
+div.main{
+    section{
+        article{
+            h2{
+                width: 330px;
+                font-size: 28px;
+                line-height: 40px;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 12px;
+                width: 400px;
+                height: 120px;
+            }
+        }
+    }
+}
+
+div.cnt1_integrity{
+    header{
+        h3{
+            font-size: 26px;
+            line-height: 40px;
+        }
+    }
+    section{
+        .artview{
+            .artgroup{
+                article{
+                    dl{
+                        dt{
+                            label{font-size: 18px;}
+                        }
+                        dd{
+                            font-size: 12px;
+                        }
+                    }
+                    #a1:checked~dl dd:nth-of-type(1),#a2:checked~dl dd:nth-of-type(2),#a3:checked~dl dd:nth-of-type(3),#a4:checked~dl dd:nth-of-type(4),#a5:checked~dl dd:nth-of-type(5){
+                        padding-right: 40px;
+                    }
+                }
+            }
+            .imggroup{
+                article{
+                    .image{
+                        height: 180px; width: 230px;
+                    }
+                    .i1{
+                        height: 240px;
+                        top: 23px;
+                        bottom: 0;
+                        right: 0;
+                        left: 75px;
+                        background-color: #eee;
+                        background-image: url();
+                    }
+                    .i2{
+                        top: 72px;
+                        bottom: 0;
+                        right: 0;
+                        left: -5px;
+                    }
+                    .i3{
+                        top: 32px;
+                        bottom: 0;
+                        right: 0;
+                        left: 148px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.cnt2_value{
+    section{
+        .artview{
+            .image{
+                width: calc(40% - 20px);
+            }
+            .artgroup{
+                width: calc(60% - 20px);
+                padding: 30px 20px;
+                header{
+                    h3{
+                        font-size: 26px;
+                        line-height: 40px;
+                    }
+                }
+                article{
+                    .texts{
+                        margin-top: 40px;
+                        h4{
+                            font-size: 18px;
+                            line-height: 40px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        
+
+    }
+}
+
+div.cnt3_solu{
+    section{
+        .artview{
+            .vdo{
+                width: calc(50% - 20px);
+                height: 250px;
+                video{
+                    width: 320px;
+                    height: 250px;
+                }
+            }
+            .artgroup{    
+                width: calc(50% - 20px);
+                header{
+                    margin: 0 auto;
+                    h3{font-size: 24px;}
+                }
+                article{
+                    p{font-size: 14px;}
+                }
+            }
+        }
+        .box{
+            bottom: -60px;
+            .image{
+                font-size: 14px;
+                width: 120px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+div.cnt4_identity{
+    section{
+        .artgroup{
+            article{
+                .image{height: 280px;}
+                video{width: 210px;}
+                .texts{
+                    padding: 15px;
+                    h4{
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                    p{
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                }
+                &:nth-child(3){
+                    .texts{
+                        padding: 120px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.cnt5_messages{
+    section{
+        .artgroup{ 
+            .art1{
+                width: calc(50%);
+            }
+            .art2{
+                width: calc(70%);
+                .it2{
+                    left: 280px;
+                }
+            }
+        }
+    }
+}

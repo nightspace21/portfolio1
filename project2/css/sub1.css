@@ -1,0 +1,425 @@
+div.main {
+  background-image: url(../img/sub1/pic05.jpg);
+}
+
+div.main section article h2 {
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+div.main section article p {
+  height: 180px;
+}
+
+div.cnt1_integrity header {
+  text-align: left;
+}
+
+div.cnt1_integrity header h3 {
+  font-size: 32px;
+}
+
+div.cnt1_integrity section .artview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.cnt1_integrity section .artview .artgroup {
+  width: calc(50% - 20px);
+}
+
+div.cnt1_integrity section .artview .artgroup article input {
+  display: none;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dt {
+  background-color: #cddfed;
+  border-radius: 10px;
+  text-indent: 20px;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dt label {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dt:nth-of-type(2), div.cnt1_integrity section .artview .artgroup article dl dt:nth-of-type(3), div.cnt1_integrity section .artview .artgroup article dl dt:nth-of-type(4), div.cnt1_integrity section .artview .artgroup article dl dt:nth-of-type(5) {
+  margin-top: 20px;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dd {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  /*  */
+  background-color: rgba(90, 90, 90, 0.082);
+  border-radius: 0  0 10px 10px;
+  /*  */
+  height: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+div.cnt1_integrity section .artview .artgroup article #a1:checked ~ dl dt:nth-of-type(1), div.cnt1_integrity section .artview .artgroup article #a2:checked ~ dl dt:nth-of-type(2), div.cnt1_integrity section .artview .artgroup article #a3:checked ~ dl dt:nth-of-type(3), div.cnt1_integrity section .artview .artgroup article #a4:checked ~ dl dt:nth-of-type(4), div.cnt1_integrity section .artview .artgroup article #a5:checked ~ dl dt:nth-of-type(5) {
+  border-radius: 10px 10px 0 0;
+}
+
+div.cnt1_integrity section .artview .artgroup article #a1:checked ~ dl dd:nth-of-type(1), div.cnt1_integrity section .artview .artgroup article #a2:checked ~ dl dd:nth-of-type(2), div.cnt1_integrity section .artview .artgroup article #a3:checked ~ dl dd:nth-of-type(3), div.cnt1_integrity section .artview .artgroup article #a4:checked ~ dl dd:nth-of-type(4), div.cnt1_integrity section .artview .artgroup article #a5:checked ~ dl dd:nth-of-type(5) {
+  height: inherit;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+div.cnt1_integrity section .artview .imggroup {
+  width: calc(50% - 20px);
+  padding: 120px 0;
+}
+
+div.cnt1_integrity section .artview .imggroup article {
+  position: relative;
+}
+
+div.cnt1_integrity section .artview .imggroup article .image {
+  height: 200px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  background-color: #999;
+}
+
+div.cnt1_integrity section .artview .imggroup article .i1 {
+  width: 340px;
+  height: 240px;
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  right: 0;
+  left: 124px;
+  background-image: url(../img/sub1/cnt1_img3laymidd.jpg);
+}
+
+div.cnt1_integrity section .artview .imggroup article .i2 {
+  position: absolute;
+  top: 104px;
+  bottom: 0;
+  right: 0;
+  left: 90px;
+  background-image: url(../img/sub1/cnt1_img3laylef.jpg);
+}
+
+div.cnt1_integrity section .artview .imggroup article .i3 {
+  position: absolute;
+  top: 31px;
+  bottom: 0;
+  right: 0;
+  left: 312px;
+  background-image: url(../img/sub1/cnt1_img3laybot.jpg);
+}
+
+div.cnt2_value section .artview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.cnt2_value section .artview .image {
+  width: 430px;
+  height: 480px;
+  background-position: center;
+  background-size: cover;
+  background-color: #999;
+  background-image: url(../img/sub1/cnt2_value.jpg);
+  border-radius: 10px;
+}
+
+div.cnt2_value section .artview .artgroup {
+  width: 610px;
+  padding: 10px 90px;
+}
+
+div.cnt2_value section .artview .artgroup header {
+  text-align: left;
+  margin: 0;
+}
+
+div.cnt2_value section .artview .artgroup header h3 {
+  font-size: 32px;
+}
+
+div.cnt2_value section .artview .artgroup article .texts h4 {
+  line-height: 80px;
+  text-indent: 15px;
+}
+
+div.cnt2_value section .artview .artgroup article .texts p {
+  height: 100px;
+  padding-left: 30px;
+}
+
+div.cnt3_solu {
+  padding: 80px 0;
+}
+
+div.cnt3_solu section {
+  position: relative;
+  margin-top: 0;
+}
+
+div.cnt3_solu section .artview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.cnt3_solu section .artview .vdo {
+  width: calc(60% - 20px);
+  height: 340px;
+  background-color: #999;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+div.cnt3_solu section .artview .artgroup {
+  width: calc(40% - 20px);
+}
+
+div.cnt3_solu section .artview .artgroup header {
+  text-align: left;
+  margin: 0;
+  height: 80px;
+}
+
+div.cnt3_solu section .artview .artgroup header h3 {
+  font-size: 32px;
+}
+
+div.cnt3_solu section .artview .artgroup article p {
+  height: 120px;
+}
+
+div.cnt3_solu section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+}
+
+div.cnt3_solu section .box .image {
+  width: 160px;
+  height: 120px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 0;
+  font-family: "Noto Sans KR";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+div.cnt3_solu section .box .image:nth-child(2), div.cnt3_solu section .box .image:nth-child(3) {
+  margin-left: 20px;
+}
+
+div.cnt4_identity section .artgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+div.cnt4_identity section .artgroup article {
+  position: relative;
+  width: calc(33.33% - 20px);
+}
+
+div.cnt4_identity section .artgroup article .outer {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+div.cnt4_identity section .artgroup article .image {
+  height: 280px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+div.cnt4_identity section .artgroup article .i2 {
+  background-image: url(../img/sub1/cnt4_no3.jpg);
+}
+
+div.cnt4_identity section .artgroup article .i1 {
+  background-image: url(../img/sub1/cnt4_no1.jpg);
+}
+
+div.cnt4_identity section .artgroup article .texts {
+  padding: 40px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+div.cnt4_identity section .artgroup article .texts h4 {
+  font-size: 24px;
+  position: relative;
+  top: -100px;
+}
+
+div.cnt4_identity section .artgroup article .texts p {
+  font-size: 12px;
+  margin-top: 20px;
+  position: relative;
+  top: -350px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.cnt4_identity section .artgroup article .texts:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+div.cnt4_identity section .artgroup article .texts:hover h4 {
+  top: 0;
+}
+
+div.cnt4_identity section .artgroup article .texts:hover p {
+  top: 0;
+}
+
+div.cnt4_identity section .artgroup article .texts:hover button {
+  top: 0;
+}
+
+div.cnt4_identity section .artgroup article:nth-child(3) {
+  text-align: center;
+}
+
+div.cnt4_identity section .artgroup article:nth-child(3) .texts {
+  padding: 100px 0;
+}
+
+div.cnt5_messages section .artgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+div.cnt5_messages section .artgroup article .image {
+  height: 640px;
+  background-color: #eee;
+}
+
+div.cnt5_messages section .artgroup .art1 {
+  width: calc(30% - 20px);
+}
+
+div.cnt5_messages section .artgroup .art1 .i1 {
+  border-radius: 20px 0 0 20px;
+}
+
+div.cnt5_messages section .artgroup .art1 .i1 img {
+  border-radius: 20px 0 0 20px;
+  width: 100%;
+  height: 100%;
+}
+
+div.cnt5_messages section .artgroup .art1 .it1 {
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: 90px;
+}
+
+div.cnt5_messages section .artgroup .art1 .it1 h4 {
+  margin-top: 40px;
+}
+
+div.cnt5_messages section .artgroup .art1 .it1 nav {
+  font-size: 40px;
+}
+
+div.cnt5_messages section .artgroup .art2 {
+  width: calc(70% - 20px);
+}
+
+div.cnt5_messages section .artgroup .art2 .i2 {
+  border-radius: 0px 20px 20px 0;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 {
+  position: absolute;
+  top: 30px;
+  left: 340px;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 form {
+  text-align: center;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 form input, div.cnt5_messages section .artgroup .art2 .it2 form textarea {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 form textarea {
+  height: 280px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 form button {
+  width: 280px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 1px solid #7fbae7;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 form button:hover {
+  background-color: #7fbae7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=sub1.css.map */

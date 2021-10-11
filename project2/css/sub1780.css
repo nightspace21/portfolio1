@@ -1,0 +1,160 @@
+div.main section article h2 {
+  width: 330px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+div.main section article p {
+  margin-top: 10px;
+  font-size: 12px;
+  width: 400px;
+  height: 120px;
+}
+
+div.cnt1_integrity header h3 {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dt label {
+  font-size: 18px;
+}
+
+div.cnt1_integrity section .artview .artgroup article dl dd {
+  font-size: 12px;
+}
+
+div.cnt1_integrity section .artview .artgroup article #a1:checked ~ dl dd:nth-of-type(1), div.cnt1_integrity section .artview .artgroup article #a2:checked ~ dl dd:nth-of-type(2), div.cnt1_integrity section .artview .artgroup article #a3:checked ~ dl dd:nth-of-type(3), div.cnt1_integrity section .artview .artgroup article #a4:checked ~ dl dd:nth-of-type(4), div.cnt1_integrity section .artview .artgroup article #a5:checked ~ dl dd:nth-of-type(5) {
+  padding-right: 40px;
+}
+
+div.cnt1_integrity section .artview .imggroup article .image {
+  height: 180px;
+  width: 230px;
+}
+
+div.cnt1_integrity section .artview .imggroup article .i1 {
+  height: 240px;
+  top: 23px;
+  bottom: 0;
+  right: 0;
+  left: 75px;
+  background-color: #eee;
+  background-image: url();
+}
+
+div.cnt1_integrity section .artview .imggroup article .i2 {
+  top: 72px;
+  bottom: 0;
+  right: 0;
+  left: -5px;
+}
+
+div.cnt1_integrity section .artview .imggroup article .i3 {
+  top: 32px;
+  bottom: 0;
+  right: 0;
+  left: 148px;
+}
+
+div.cnt2_value section .artview .image {
+  width: calc(40% - 20px);
+}
+
+div.cnt2_value section .artview .artgroup {
+  width: calc(60% - 20px);
+  padding: 30px 20px;
+}
+
+div.cnt2_value section .artview .artgroup header h3 {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+div.cnt2_value section .artview .artgroup article .texts {
+  margin-top: 40px;
+}
+
+div.cnt2_value section .artview .artgroup article .texts h4 {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+div.cnt2_value section .artview .artgroup article .texts p {
+  font-size: 14px;
+}
+
+div.cnt3_solu section .artview .vdo {
+  width: calc(50% - 20px);
+  height: 250px;
+}
+
+div.cnt3_solu section .artview .vdo video {
+  width: 320px;
+  height: 250px;
+}
+
+div.cnt3_solu section .artview .artgroup {
+  width: calc(50% - 20px);
+}
+
+div.cnt3_solu section .artview .artgroup header {
+  margin: 0 auto;
+}
+
+div.cnt3_solu section .artview .artgroup header h3 {
+  font-size: 24px;
+}
+
+div.cnt3_solu section .artview .artgroup article p {
+  font-size: 14px;
+}
+
+div.cnt3_solu section .box {
+  bottom: -60px;
+}
+
+div.cnt3_solu section .box .image {
+  font-size: 14px;
+  width: 120px;
+  height: 100px;
+}
+
+div.cnt4_identity section .artgroup article .image {
+  height: 280px;
+}
+
+div.cnt4_identity section .artgroup article video {
+  width: 210px;
+}
+
+div.cnt4_identity section .artgroup article .texts {
+  padding: 15px;
+}
+
+div.cnt4_identity section .artgroup article .texts h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+div.cnt4_identity section .artgroup article .texts p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+div.cnt4_identity section .artgroup article:nth-child(3) .texts {
+  padding: 120px 0;
+}
+
+div.cnt5_messages section .artgroup .art1 {
+  width: calc(50%);
+}
+
+div.cnt5_messages section .artgroup .art2 {
+  width: calc(70%);
+}
+
+div.cnt5_messages section .artgroup .art2 .it2 {
+  left: 280px;
+}
+/*# sourceMappingURL=sub1780.css.map */

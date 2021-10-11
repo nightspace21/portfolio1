@@ -1,0 +1,197 @@
+// sub1420.scss
+
+div.main{
+    height: 260px;
+    section{
+        article{    
+            padding: 0;
+            position: relative;
+            bottom: -150px;
+            left: 20px;
+            h2{
+                font-size: 18px;
+            }
+            p{
+                width: 270px;
+                height: 20px;
+                overflow: hidden;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+div.cnt1_integrity{
+    header{
+        h3{font-size: 24px;}
+    }
+    section{
+        .artview{
+            flex-direction: column-reverse;
+            .artgroup{
+                width: 100%;
+                article{
+                    dl{
+                        dt{
+                            label{font-size: 14px;}
+                        }
+                    }
+                }
+            }
+            .imggroup{
+                position: relative;
+                article{
+                    position: absolute;
+                    top: -40px; left:0;
+                }
+            }
+        }
+    }
+}
+
+div.cnt2_value{
+    section{
+        margin-top: 80px;
+        .artview{
+            display: block;
+            position: relative;
+            .image{
+                width: 100%;
+            }
+            .artgroup{
+                width: 100%;
+                // padding: 30px 20px;
+                position: absolute;
+                top: -100px; left: 0;
+                header{
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+                article{
+                    color: #fff;
+                    margin-top: 220px;
+                    background-color: rgba(170,170,170,0.5);
+                    border-radius: 10px;
+                    .texts{
+                        &:nth-child(1){
+                            margin-top: 40px;
+                        }
+                        margin-top: 0;
+                        h4{font-size: 14px;}
+                        p{font-size: 12px;}
+                    }
+                }
+            }
+        }
+        
+
+    }
+}
+
+div.cnt3_solu{
+    padding: 40px 0;
+    section{
+        .artview{
+            flex-direction: column-reverse;
+            .vdo{
+                width: 100%;
+                video{width: 360px;}
+            }
+            .artgroup{    
+                width: 100%;
+                header{
+                    margin: 0 auto;
+                    h3{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+                article{
+                    p{font-size: 12px;}
+                }
+            }
+        }
+        .box{
+            position: relative;
+            bottom: 10px;
+            left: 0;
+        }
+    }
+}
+
+div.cnt4_identity{
+    header{
+        h3{
+            font-size: 24px;
+        }
+    }
+    section{
+        .artgroup{
+            display: block;
+            article{
+                width: 100%;
+                .image{height: 280px;}
+                video{width: 100%;}
+                .texts{
+                    padding: 45px 20px;
+                    h4{
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                    p{
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.cnt5_messages{
+    section{
+        .artgroup{ 
+            display: block;
+            .art1{
+                width: 100%;
+                .i1{
+                    border-radius: 10px;
+                    opacity: 0.4;
+                    img{border-radius: 10px;}
+                }
+                .it1{
+                    top: -10px; left: 70px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    h4{
+                        margin-top: 0;
+                    }
+                    nav{
+                        margin-right: 40px;
+                    }
+                }
+            }
+            .art2{
+                width: 100%;
+                position: relative;
+                .i2{
+                    background-color: transparent;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0; left:0;
+                }
+                .it2{
+                    left: -5px;
+                    top: -600px;
+                    form{
+                        input,textarea{
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

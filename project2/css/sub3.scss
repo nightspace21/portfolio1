@@ -1,0 +1,163 @@
+// sub3.scss
+
+div.main{
+    background-image: url(../img/sub3/sub3_bn_01.png);
+    section{
+        article{
+            h2{
+                font-size: 36px;
+                line-height: 60px;
+                font-weight: 700;
+            }
+            h3{
+                margin-top: 40px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+div.cnt1_brands{
+    section{
+        position: relative;
+            .artview{
+                position: relative;
+                .artgroup{
+                    position: relative;
+                    top: 2000%;
+                    .brand{
+                        display: none;
+                        &:first-child{display: block;}
+                    }
+                    article{
+                        display: flex;
+                        justify-content: space-around;
+                        position: relative;
+                        .image{
+                            width: calc(43% - 20px);
+                            height: 440px;
+                            background-color: #999;
+                            filter: blur(0.5px);
+                            opacity: 0.8;
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 10px 0 0 10px;
+                        }
+                        .textsgroup{
+                            width: calc(57% - 20px);
+                            position: relative;
+                            .backgroundimage{
+                                height: 100%;
+                                border-radius: 0 10px 10px 0;
+                            }
+                            .texts{
+                                position: absolute;
+                                top: 0; left: 0;
+                                padding: 20px;
+                                height: 440px;
+                                h4{
+                                    color: rgba(0, 0, 0, 0.5);
+                                    line-height: 40px;
+                                    b{
+                                        font-weight: 700;
+                                        color: #f90;
+                                    }
+                                }
+                                p{
+                                    font-weight: 700;
+                                    color: rgba(0, 0, 0, 0.5);
+                                    margin-top: 40px;
+                                }
+                                .imggroup{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    margin-top: 40px;
+                                    .imagegroup{
+                                        width: calc(33.33% - 20px);
+                                        height: 120px;
+                                        border-radius: 8px;
+                                        box-shadow: 8px 5px 5px rgba(37, 37, 37, 0.6);
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 8px;
+                                        }
+                                    }
+                                }
+                                button{
+                                    font-weight: 700; font-size: 14px;
+                                    color: rgba(0, 0, 0, 0.5);
+                                    background-color: transparent;
+                                    height: 40px; width: 120px;
+                                    border-radius: 10px;
+                                    margin-top: 40px;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+/*              */
+        .artview2{
+            margin-top: 40px;
+            overflow: hidden;
+            .artgroup2{
+                width: 500%;
+                display: flex;
+                justify-content: space-around;
+                position: relative;
+                .image{
+                    width: calc(100% / 20 - 20px);
+                    height: 240px;
+                    background-color: #999;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+                .clicked{
+                    background-color: #f90;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    @for $i from 1 through 20 {
+        .i#{$i}{
+            background-image: url('../img/sub3/brand#{$i}/brand#{$i}_logo.png');
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    @for $i from 1 through 20 {
+        .it#{$i}{
+            background-image: url('../img/sub3/brand#{$i}/brand#{$i}_bg.png');
+            background-position: center;
+            background-size: cover;
+            filter: blur(3px);
+            opacity: 0.5;
+        }
+    }
+    .btns{
+        width: calc(100% + 100px);
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        margin: auto;
+        top: 0px; bottom: -600px;
+        left: -50px;
+        button{
+            font-size: 50px;
+            width: 80px; height: 80px;
+            color: #ccc;
+            border: 0;
+            cursor: pointer;
+            background-color: transparent;
+        }
+    }
+
+}

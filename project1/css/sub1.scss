@@ -1,0 +1,359 @@
+// sub1.scss
+
+div.cntsub11{
+    // outline: 5px solid red;
+    background-color: #f3f6f8;
+    header{
+        text-align: right;
+        position: relative;
+        top: 110px;
+    }
+    section{
+        // outline: 3px solid blue;
+        display: flex;
+        justify-content: space-around;
+        
+        
+        article{
+            width: calc(33.33% - 20px);
+            width: 340px; height: 840px;
+            // outline: 2px solid pink;
+            position: relative;
+            .image{
+                width: 340px;
+                height: 400px;
+                position: relative;
+                background-position: center;
+                background-size: cover;
+            }
+            .i1{
+                position: relative;
+                // width: 340px;
+                // background-color: #f30;
+                background-image: url(../img/sub1/cnts1_1.jpg);
+            }
+            .i2{
+                position: relative;
+                background-color: #f80;
+                // top: 120px;
+                // left: 380px;
+                background-image: url(../img/sub1/cnts1_2.jpg);
+            }
+            &:nth-of-type(2){
+                top:120px;
+            }
+            &:nth-of-type(3){
+                top: 240px;
+            }
+            .i3{
+                position: relative;
+                background-color: #f60;
+                // left: 780px;
+                background-image: url(../img/sub1/cnts1_3.jpg);
+            }
+            .texts{
+                background-color: #cae5ec;
+                width: 340px;
+                // position: relative;
+                // top: 0px;
+                text-align: center;
+                color: #8c8c8c;
+                padding: 20px 10px;
+                h4{
+                    color: #8c8c8c; 
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+                
+        }
+    }
+}
+
+div.cntsub12{
+    background-color: #f3f6f8;
+    .sect121{
+        width: 90%; max-width: 1080px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        article{
+            position: relative;
+            .image{
+                width: 520px; height: 520px;
+            }
+            .i1{
+                width: 300px; height: 320px;
+                border-radius: 170px;
+                background-color: #cae5ec;
+                position: absolute;
+                left: 120px;
+                top: 20px;
+            }
+            .i12{
+                width: 300px; height: 320px;
+                border-radius: 170px;
+                background-color: #cddfed;
+                position: absolute;
+                left: 30px;
+                top: 140px;
+            }
+            .i13{
+                width: 300px; height: 320px;
+                border-radius: 170px;
+                background-color: #e5e5e5;
+                position: absolute;
+                left: 190px;
+                top: 140px;
+            }
+            .i14{
+                width: 230px; height: 230px;
+                border-radius: 0 50% 50% 50%;
+                transform: rotate(45deg);
+                box-shadow: 1px 1px 3px #1a1a1a;
+                background-color: #fff;
+                position: absolute;
+                left: 150px;
+                top: 150px;
+            }
+            .i16{
+                background-image: url(../img/logo.png);
+                width: 100px; height:40px;
+                background-position: center;
+                background-size: cover;
+                position: absolute;
+                left: 220px;
+                top: 240px;
+            }
+            .i17{
+                border: 20px solid rgba(221, 214, 214, 0.2);
+                width: 520px; height: 520px;
+                border-radius: 250px;
+                position: absolute;
+                top: 0;
+            }
+        }
+        header{
+            font-family: 'Noto Sans KR';
+            text-align: right;
+            width: 480px;
+            margin:0;
+            padding: 80px 0;
+            h3{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 80px;
+            }
+            h5{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 20px;
+                height: 120px;
+                margin-top: 40px;
+            }
+        }
+    }
+    .sect122{
+        width: 100%; max-width: 1080px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        article{
+            width: calc(33.33% - 20px);
+            position: relative;
+            top: -80px;
+            .image{
+                height: 320px;
+                border-radius: 170px;
+            }
+            .texts{
+                font-family: 'Noto Sans KR';
+                height: 80px;
+                text-align: center;
+                position: relative;
+                top: -230px;
+                width: 200px;
+                left: 70px;
+                h4{
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+                p{
+                    font-size: 14px;
+                    margin-top: 40px;
+                }
+            }
+            .i2{
+                background-color: #cddfed;
+            }
+            .i3{
+                background-color: #cae5ec;
+            }
+            .i4{
+                background-color: #e5e5e5;
+            }
+        }
+    }
+}
+
+div.cntsub13 {
+	.sect131 {
+        overflow: hidden;
+        position: relative;
+        .i1{
+            width: 540px;
+            background-color: #f90;
+            position: relative;
+            height: 360px;
+            background-image: url(../img/sub1/cnts131.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .artGroup1 {
+            width: 400%;
+            position: absolute;
+            top: 0;
+            transition: left 0.7s;
+            display: flex;
+            justify-content: space-around;
+            left: 50%;
+            .article1{
+                text-align: left;
+                width: 25%;
+                .texts1{
+                    font-family: "Noto Sans KR";
+                    background-color: rgba(177, 166, 166, 0.8);
+                    padding: 80px 90px;
+                    height: 360px;
+                    width: 540px;
+                    text-align: left;
+                    color: #fff;
+                    h4{
+                        color:#fff;
+                    }
+                    p{
+                        font-family: "Noto Sans KR";
+                        margin-top: 40px;
+                        width: 250;
+                    }
+                }
+            }
+        }
+        .btnGroup1 {
+            position: absolute;
+            right: 170px;
+            bottom: 25px;
+            li {
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: #eee;
+                float: left;
+                margin: 0 10px;
+                label {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    cursor: pointer;
+                }
+            }
+        }
+        input {display: none;}
+        #g1{&:checked~.artGroup1 {left: 50%;}}
+        #g2{&:checked~.artGroup1 {left: -50%;}}
+        #g3{&:checked~.artGroup1 {left: -150%;}}
+        #g4{&:checked~.artGroup1 {left: -250%;}}
+	}
+
+
+    .sect132 {
+		position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse;
+        .i2{
+            width: 540px;
+            background-color: #f90;
+            position: relative;
+            height: 360px;
+            background-image: url(../img/sub1/cnts132.png);
+            background-position: center;
+            background-size: cover;
+        }
+		.artGroup2 {
+            width: 900%;
+			position: absolute;
+            top: 0;
+			transition: left 0.7s;
+            display: flex;
+            justify-content: space-around;
+            left: 0%;
+			.article{
+				text-align: left;
+				width: 25%;
+				.texts{
+                    font-family: "Noto Sans KR";
+					background-color: rgba(177, 166, 166, 0.8);
+					padding: 80px 90px;
+                    height: 360px;
+                    width: 540px;
+					text-align: left;
+                    color: #fff;
+                    h4{
+                        color:#fff;
+                    }
+                    p{
+                        font-family: "Noto Sans KR";
+                        margin-top: 40px;
+                        width: 250;
+                    }
+				}
+			}
+		}
+		input {display: none;}
+		#g5{&:checked~.artGroup2 {left: 0%;}}
+		#g6{&:checked~.artGroup2 {left: -100%;}}
+		#g7{&:checked~.artGroup2 {left: -200%;}}
+		#g8{&:checked~.artGroup2 {left: -300%;}}
+		#g9{&:checked~.artGroup2 {left: -400%;}}
+		#g10{&:checked~.artGroup2 {left: -500%;}}
+		#g11{&:checked~.artGroup2 {left: -600%;}}
+		#g12{&:checked~.artGroup2 {left: -700%;}}
+		#g13{&:checked~.artGroup2 {left: -800%;}}
+		.btnGroup2 {
+			position: absolute;
+			left: 80px;
+            bottom: 25px;
+			li {
+				width: 20px;
+				height: 20px;
+				border-radius: 10px;
+				background-color: #eee;
+				float: left;
+				margin: 0 10px;
+				label {
+					width: 100%;
+					height: 100%;
+					display: block;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,152 @@
+// index@media.scss
+
+    div.main{
+        section{
+            position: relative;
+            max-width: 780px;
+            header{
+                width: calc(60%);
+                padding: 90px 40px;
+                margin: 0;
+                background-color: rgba(170, 170, 170, 0.8);
+                position: absolute;
+                top: 60px;
+                left: 0;
+                h2{line-height: 80px;}
+            }
+            .artgroup{  
+                width: calc(70%);
+                article{
+                    .image{
+                        width: calc(100% + (100vw - 780px) / 2 + 150px);
+                    }
+                }
+            }
+        }
+    }
+
+    div.cnt1_brand{
+        header{
+            text-align: center;
+            .gopage{
+                bottom: -20px;
+            }
+        }
+        section{
+            display: block;
+            margin-top: 40px;
+            overflow: visible;
+            article{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                &:nth-child(2){
+                    flex-direction: row-reverse;
+                    margin: 20px 0;
+                    .image{
+                        border-radius: 0 8px 8px 0;
+                    }
+                    .texts{
+                        border-radius: 8px 0 0 8px;
+                    }
+                }
+                .image{
+                    width: calc(100% / 3 + 80px);
+                    height: 280px;
+                    background-color: #999;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 8px 0 0 8px;
+                }
+                .texts{
+                    width: calc(100% / 3 + 130px);
+                    position: unset;
+                    background-color: #f90;
+                    overflow: visible;
+                    border-radius: 0 8px 8px 0;
+                    .logo,h4,p,h5{
+                        position: unset;
+                    }
+                }
+            }
+        }
+    }
+
+    div.cnt2_banner{
+        padding: 40px 0;
+        section{
+            article{
+                .image{height: 460px;}
+                .texts{
+                    width: 420px;
+                    background-color: rgba(170, 170, 170, 0.7);
+                    bottom: -20px; right: 5px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
+    div.cnt3_news{
+        header{
+            text-align: center;
+            .gopage{
+                bottom: -20px;
+            }
+        }
+        section{
+            width: 100vw;
+            max-width: 780px;
+            .artview{
+                .artgroup{
+                    align-items: center;
+                    article{
+                        width: calc(30% - 20px);
+                        text-align: center;
+                        box-shadow: initial;
+                        .image{
+                            img{
+                                width: 250px;
+                                height: 200px;
+                                margin: 0 auto;
+                            }
+                        }
+                        .texts{
+                            width: 250px;
+                            text-align: initial;
+                            margin: 0 auto;
+                        }
+                    }
+                    .center{
+                        width: calc(40% - 20px);
+                        .image{
+                            img{
+                                width: 280px;
+                                height: 280px;
+                            }
+                        }
+                        .texts{width: 280px;}
+                    }
+                }
+            }
+            .btns{
+                width: calc(100% - 100px);
+                left: 50px;
+                button{
+                    font-size: 50px;
+                    width: 80px; height: 80px;
+                    background-color: transparent;
+                    color: #ccc;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    div.cnt4_offices{
+        header{
+            text-align: center;
+        }
+    }
+

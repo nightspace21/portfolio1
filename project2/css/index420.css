@@ -1,0 +1,211 @@
+div.main section {
+  position: relative;
+  max-width: 420px;
+  margin: 0;
+}
+
+div.main section header {
+  width: 100%;
+  padding: 10px 40px;
+  top: 310px;
+  left: 10px;
+  border-radius: 8px;
+}
+
+div.main section header h2 {
+  font-size: 32px;
+  line-height: 80px;
+}
+
+div.main section header .btn {
+  margin: 0;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+div.main section .artgroup {
+  width: 100%;
+}
+
+div.main section .artgroup article .image {
+  width: 200vw;
+}
+
+div.cnt1_brand header {
+  text-align: center;
+}
+
+div.cnt1_brand header .gopage {
+  bottom: -20px;
+}
+
+div.cnt1_brand section {
+  display: block;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+div.cnt1_brand section article {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+div.cnt1_brand section article:nth-child(2) {
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+}
+
+div.cnt1_brand section article:nth-child(2) .image {
+  border-radius: 8px;
+}
+
+div.cnt1_brand section article:nth-child(2) .texts {
+  border-radius: 8px;
+}
+
+div.cnt1_brand section article .image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+div.cnt1_brand section article .texts {
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  overflow: hidden;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+div.cnt1_brand section article .texts .logo {
+  width: 120px;
+  height: 70px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -150px;
+}
+
+div.cnt1_brand section article .texts h4 {
+  margin-top: 20px;
+  position: relative;
+  top: -180px;
+  font-size: 20px;
+}
+
+div.cnt1_brand section article .texts p {
+  height: 40px;
+  line-height: 20px;
+  margin-top: 20px;
+  position: relative;
+  bottom: -120px;
+}
+
+div.cnt1_brand section article .texts h5 {
+  margin-top: 20px;
+  position: relative;
+  bottom: -140px;
+}
+
+div.cnt1_brand section article .texts:hover {
+  top: 0;
+  background-color: rgba(88, 88, 88, 0.8);
+  text-align: center;
+  border-radius: 8px;
+}
+
+div.cnt1_brand section article .texts:hover .logo {
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+div.cnt1_brand section article .texts:hover h4 {
+  top: 0;
+}
+
+div.cnt1_brand section article .texts:hover p {
+  top: 0;
+}
+
+div.cnt1_brand section article .texts:hover h5 {
+  top: 0;
+}
+
+div.cnt2_banner {
+  padding: 40px 0;
+}
+
+div.cnt2_banner section {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+div.cnt2_banner section article {
+  width: 100%;
+}
+
+div.cnt2_banner section article .image {
+  width: 100vw;
+  height: 460px;
+  border-radius: 0;
+}
+
+div.cnt2_banner section article .texts {
+  width: 90%;
+  bottom: -20px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.cnt2_banner section article .texts h4 {
+  font-size: 14px;
+}
+
+div.cnt2_banner section article .texts p {
+  line-height: 20px;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+div.cnt3_news section {
+  width: 90%;
+  max-width: 360px;
+  margin-top: 40px;
+}
+
+div.cnt3_news section .artview .artgroup {
+  width: 310%;
+}
+
+div.cnt3_news section .btns {
+  width: calc(100% + 10px);
+  left: 0;
+}
+
+div.cnt4_offices section .btns button {
+  font-size: 40px;
+}
+
+div.cnt4_offices section .artgroup article .image {
+  height: 200px;
+}
+
+div.cnt4_offices section .num {
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=index420.css.map */

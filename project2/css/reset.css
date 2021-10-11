@@ -1,0 +1,90 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* 내가 자주 쓰는 스타일 설정 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,/*b 뺐음!*/
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+/*	font-size: 100%; 뺐음! */
+	font: inherit;
+	vertical-align: baseline;
+    /* add properties */
+    box-sizing: border-box;/*추가 사항!*/
+    direction: ; /* 추가 사항! */
+    direction: ltr ; /* 추가 사항! 210720 */
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*텍스트 콘텐트 엘리멘트 Text content Elements */
+/* h1, h2, h3, h4, h5, h6, p, li, dt, dd{
+    overflow: hidden;
+} */ /* 추가 사항! */
+
+ol, ul, menu {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*여기서부터 추가 사항!!*/
+
+a{
+    color:inherit; text-decoration: none;
+}
+
+img {
+    border:0; outline:0;
+}
+
+/* form Elements Reset */
+*:focus{
+    outline: 0; 
+}
+
+input, button, textarea, select, option {
+    box-sizing: border-box;
+}
+
+button{
+    font-size: inherit;
+    color: inherit;
+}
+
+hr{
+    margin: 0; border: 0;
+    height: 1px; background-color: #ccc;
+    
+}

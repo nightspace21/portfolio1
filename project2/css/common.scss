@@ -1,0 +1,375 @@
+//common.scss
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700;900&display=swap');
+@import url(icomoon.css);
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../fonts/Quicksand_Bold.eot), 
+        url(../fonts/Quicksand_Bold.ttf), 
+        url(../fonts/Quicksand_Bold.eot);
+        /*url(../fonts/Quicksand_Bold.woff)*/    
+}
+
+@mixin cntWidth($w) {
+    width: 90%;
+    max-width: #{$w}px;
+    margin: 0 auto;
+}
+@mixin flexLayout($jc) {
+    display: flex;
+    justify-content: $jc;
+}
+@mixin fonts ($fw, $fz, $lh, $c){
+    font-weight: $fw;
+    font-size: #{$fz}px;
+    line-height: #{$lh}px;
+    color: $c;
+}
+html, body{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.43;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,dt,address{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1,h2,h3,h4,h5,p,li,dt,dd,address{
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+div.hdrWrap{
+    padding: 20px 0;
+    background-color: rgb(160, 124, 124);
+    header{
+        @include cntWidth(1080);
+        @include flexLayout(space-between);
+        h1{
+            @include fonts (700, 18, 40, #000);
+            br{display: none;}
+            img{
+                display: flex;
+                align-items: center;
+                width: 100px;
+                height: 63px;
+            }
+        }
+        nav{
+            @include flexLayout(flex-start);
+            align-items: center;
+            h2{
+                @include fonts (600, 16, 80, #000);
+                margin-left: 40px;
+                line-height: 63px;
+            }
+        }
+        .bars{
+            display: none;
+            button{
+                width: 40px; 
+                height: 100%;
+                background-color: rgb(160, 124, 124);
+                border: 0;
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+div.navWrap{
+    display: none;
+    section{
+        .image{
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+div.main{
+    background-position: center;
+    background-size: cover;
+    section{
+        width: 90%; max-width: 1080px;
+        margin: 0 auto;
+        article{
+            padding: 120px 0;
+            padding-left: 40px;
+            color: #fff;
+            // width: 520px;
+            text-align: left;
+        }
+    }
+}
+
+div.content{
+    padding: 160px 0;
+    header{
+        @include cntWidth(1080);
+        text-align: center;
+        h3{
+            @include fonts (700, 36, 80, #000)
+        }
+        h4{
+            @include fonts (700, 14, 40, #000)
+        }
+        h5{
+            @include fonts (700, 16, 40, #333)
+        }
+        hr{
+            width: 60px; height: 4px; background-color: #000;
+        }
+    }
+    section{
+        @include cntWidth(1080);
+        margin-top: 40px;
+        h4{
+            @include fonts (700, 24, 40, inherit);
+        }
+        h5{
+            @include fonts (700, 12, 40, inherit);
+        }
+        p{}
+    }
+}
+
+div.container{
+    padding: 120px 0;
+    header{
+        @include cntWidth(1080);
+        h3{
+            @include fonts(700, 36, 120, #000);
+            text-indent: 20px;
+            position: relative;
+            height: 120px;
+            i{
+                font-family: 'Noto Serif KR';
+                @include fonts(900, 120, inherit,inherit);
+                margin-right: 30px;
+            }
+            /* 숫자위에 점 */
+            &::before{
+                display: block;
+                content: '';
+                width: 20px; height: 20px;
+                background-color: #ccc;
+                position: absolute;
+                top:0; left:0;
+            }
+        }
+        .descript{
+            margin-top: 40px;
+            @include flexLayout(space-between);
+            ul{
+                display: flex;
+                li{
+                    font-family: 'Noto Sans KR';
+                    font-weight: 700;
+                    font-size: 18px;
+                    width: 160px; height: 160px;
+                    border: 1px solid #000;
+                    text-align: center;
+                    @include flexLayout(center);
+                    align-items: center;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    section{
+        @include cntWidth(1080);
+        margin-top: 120px;
+    }
+}
+
+div.ftrWrap{
+    background-color: #333;
+    padding: 40px 0;
+    footer{
+        color: #fff;
+        @include cntWidth(1080);
+        .footerFst{
+            @include cntWidth(1080);
+            @include flexLayout(space-between);
+            h1{
+                @include fonts (700, 18, 40, #000);
+                img{
+                    display: flex;
+                    align-items: center;
+                    width: 100px;
+                    height: 63px;
+                }
+            }
+            nav{
+                @include flexLayout(flex-start);
+                align-items: center;
+                h2{
+                    @include fonts (500, 14, 80, #000);
+                    margin-left: 40px;
+                    line-height: 63px;
+                    color: #fff;
+                }
+            }
+        }
+        .footermiddle{
+            @include cntWidth(1080);
+            margin-top: 20px;
+            nav{
+                h4{
+                    font-size: 12px;
+                    line-height: 40px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .footerlast{
+            @include cntWidth(1080);
+            @include flexLayout(space-between);
+            margin-top: 20px;
+            nav{
+                i{font-size: 25px; margin-left: 20px;}
+            }
+            p{font-size: 12px;}
+        }
+    }
+}
+
+@media(max-width: 780px){
+    div.hdrWrap{
+        header{
+            nav{display:none;}
+            .bars{display: block;}
+        }
+    }
+
+    div.navWrap{
+        padding: 40px 0;
+        background-color: #eee;
+        display: none;
+        section{
+            @include cntWidth(780);
+            @include flexLayout(space-around);
+            .image{
+                width: calc(65% - 20px);
+                height: 280px;
+                background-color: #f90;
+            }
+            nav{
+                width: calc(35% - 20px);
+                padding: 20px 0;
+                h2{
+                    @include fonts (600, 16, 80, #000);
+                    line-height: 60px;
+                    text-align: center;
+                }
+            }
+        }
+    
+    }
+
+    div.content{
+        padding: 80px 0;
+        header{
+            max-width: 680px;
+        }
+        section{
+            max-width: 680px;
+        }
+    }
+
+    div.ftrWrap{
+        footer{
+            max-width: 680px;
+        }
+        .footerFst{
+            max-width: 680px;
+        }
+        .footermiddle{
+            max-width: 680px;
+        }
+        .footerlast{
+            max-width: 680px;
+            position: relative;
+            nav{
+                position: absolute;
+                bottom: 50px;
+                right: 0;
+            }
+            P{margin: 0 auto;}
+        }
+    }
+
+}
+
+@media(max-width: 420px){
+
+    div.navWrap{
+        section{
+            max-width: 360px;
+            .image{
+                width: calc(70% - 20px);
+                height: 180px;
+            }
+            nav{
+                width: calc(30% - 20px);
+                padding: 10px 0;
+                h2{
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+            }
+        }
+    
+    }
+
+    div.content{
+        padding: 40px 0;
+        header{
+            max-width: 360px;
+            h3{
+                @include fonts (700, 28, 80, #000)
+            }
+            h4{
+                @include fonts (700, 12, 20, #000)
+            }
+        }
+        section{
+            max-width: 360px;
+        }
+    }
+
+    div.ftrWrap{
+        footer{
+            max-width: 360px;
+            .footerFst{
+                @include cntWidth(360);
+                position: relative;
+                nav{
+                    display: block;
+                    position: absolute;
+                    top: 0; right: 0;
+                    h2{
+                        line-height: 40px;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .footermiddle{
+                max-width: 360px;
+            }
+            .footerlast{
+                max-width: 360px;
+                nav{
+                    bottom: 60px;
+                }
+                P{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+
